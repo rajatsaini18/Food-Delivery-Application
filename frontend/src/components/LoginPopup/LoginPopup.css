@@ -1,0 +1,117 @@
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  animation: fadeIn 1s;
+}
+
+.background-image-login {
+  padding: 20px;
+  border-radius: 8px;
+  width: 1000px;
+  height: 600px;
+  background-color: rgb(205, 87, 87);
+  position: relative;
+  
+
+}
+
+.background-image-login .image {
+  position: relative;
+  padding: 80px 80px 80px 100px;
+
+}
+
+.description{
+  font-weight: 1000;
+   color: rgb(255, 248, 248);
+   position: absolute;
+   bottom: 100px;
+   text-shadow: #FC0 1px 0 10px;
+   text-decoration: solid;
+   left: 150px;
+   font-size: 48px;
+}
+
+.popup-content {
+  background-color: white;
+  padding: 20px;
+  width: 300px;
+  height: 350px;
+  position: absolute;
+  top: 100px;
+  right: 30px;
+ 
+}
+
+.close-popup {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  font-size: 32px;
+  padding-right: 5px;
+  cursor: pointer;
+  color: rgb(131, 28, 7);
+  font-weight: 1000;
+}
+
+h2 {
+  margin-top: 0;
+  text-align: center;
+  font-weight: 600px;
+  padding: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 8px;
+  border-bottom: 2px solid rgb(144, 140, 140);
+  border-left: 0px;
+  border-top: 0px;
+  border-right: 0px;
+
+
+
+}
+
+.submit-button {
+  padding: 10px 20px;
+  background-color: tomato;
+  color: rgb(189, 18, 18);
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.submit-button:hover {
+  background-color: #c10c0c;
+}
+
+.toggle-form-text {
+  margin-top: 10px;
+  text-align: center;
+  cursor: pointer;
+  color: #007bff;
+}
+
+.toggle-form-text span:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,57 @@
+.header{
+    height :34vw;
+    margin: 30px auto;
+    background: url(/src/assets/header_img.png) no-repeat;
+    background-size: contain;
+    position: relative;
+}
+.header-contents{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    max-width: 50%;
+   bottom: 10%;
+   left: 6vw;
+   gap: 1.5vw;
+   animation: fadeIn 2s;
+   text-shadow: 1px 1px 2px rgb(170, 158, 158), 0 0 1em rgb(172, 172, 185), 0 0 0.2em rgb(172, 172, 196);
+
+}
+
+.header-contents h2{
+    font-weight: 500;
+    color:white;
+    font-size: 4.5vw;
+}
+
+.header-contents p{
+    color: white;
+    font-weight: 200;
+    font-size:  1.1vw;
+    
+}
+
+.header-contents button{
+        border: none;
+        font-weight: 1000;
+        background-color: white;
+        color: rgb(121, 114, 115);
+        padding: 15px 25px;
+        border-radius: 50px;
+        cursor: pointer; 
+        border: 3px solid white;
+       
+        
+          
+    
+}
+.header-contents button:hover {
+    box-shadow: 0px 0px 8px 6px rgba(255, 255, 255, 0.6);
+    transition: box-shadow 0.3s ease-in-out;
+
+    border: 3px solid black;
+     
+}
+
+

@@ -1,0 +1,40 @@
+.explore-menu{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.explore-menu-list{
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
+    margin: 20px 10px;
+    overflow-x: scroll;
+
+}
+.explore-menu-list::-webkit-scrollbar{
+    display: none;
+}
+.exlore-item-menu-list img{
+    width: 7.5vw;
+    min-width: 80px;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: 0.2s;
+}
+.exlore-item-menu-list p{
+    margin-top: 10px;
+    font-size: 1.4vw;
+    cursor:pointer;
+    
+}
+.explore-menu hr{
+    height: 2px;
+    background-color: rgb(200, 195, 195);
+    border:none;
+}
+.explore-menu-list .active{
+    border: 4px solid tomato;
+    padding: 2px;
+}
